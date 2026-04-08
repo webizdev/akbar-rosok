@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akbarbarangbekas.my.id/sitemap.xml

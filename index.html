@@ -84,6 +84,8 @@
   gtag('config', 'AW-18008950911');
 </script>
 
+<!-- Event snippet for Pendaftaran conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
   var callback = function () {
@@ -92,9 +94,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-18008950911/klik chat wa',
-      'value': 1.0,
-      'currency': 'IDR',
+      'send_to': 'AW-18008950911/r9ItCLPemJkcEP-Qq4tD',
       'event_callback': callback
   });
   return false;
